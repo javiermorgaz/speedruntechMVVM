@@ -23,7 +23,8 @@ struct GameListView: View {
                     .onAppear {
                         gameItem.getImage()
                 }
-            }.onAppear {
+            }
+            .onAppear {
                 self.viewModel.getGames()
             }
         }
