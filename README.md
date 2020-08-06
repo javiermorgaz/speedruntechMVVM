@@ -17,7 +17,7 @@ The App must show the folowing information from the api http://www.speedrun.com:
 
 ## Prerequisites
 
-- Xcode 11.0
+- Xcode 12 beta 4
 - Swift 5
 
 ## Installing
@@ -31,6 +31,7 @@ Tests can be run from the Tests navigation tab.
 
 ## Built With
 
+SwiftUI - Combine
 
 ## Authors
 
