@@ -7,86 +7,82 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1E0C6E8D24CEFEAB00B38AC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0C6E8C24CEFEAB00B38AC0 /* AppDelegate.swift */; };
-		1E0C6E8F24CEFEAB00B38AC0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0C6E8E24CEFEAB00B38AC0 /* SceneDelegate.swift */; };
-		1E0C6E9124CEFEAB00B38AC0 /* GameListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0C6E9024CEFEAB00B38AC0 /* GameListView.swift */; };
-		1E0C6E9324CEFEAD00B38AC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E0C6E9224CEFEAD00B38AC0 /* Assets.xcassets */; };
-		1E0C6E9624CEFEAD00B38AC0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E0C6E9524CEFEAD00B38AC0 /* Preview Assets.xcassets */; };
-		1E0C6E9924CEFEAD00B38AC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E0C6E9724CEFEAD00B38AC0 /* LaunchScreen.storyboard */; };
-		1E0C6EA424CEFEAD00B38AC0 /* speedruntechMVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0C6EA324CEFEAD00B38AC0 /* speedruntechMVVMTests.swift */; };
-		1E0C6EAF24CEFEAD00B38AC0 /* speedruntechMVVMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0C6EAE24CEFEAD00B38AC0 /* speedruntechMVVMUITests.swift */; };
-		1E29C12024D045E40056E7C5 /* RestClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E29C11F24D045E40056E7C5 /* RestClient.swift */; };
-		1E29C12224D04F110056E7C5 /* SpeedRunAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E29C12124D04F110056E7C5 /* SpeedRunAPI.swift */; };
-		1E29C12524D2B1BE0056E7C5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E29C12424D2B1BE0056E7C5 /* Constants.swift */; };
-		1E29C12724D2B6AD0056E7C5 /* GameListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E29C12624D2B6AD0056E7C5 /* GameListViewModel.swift */; };
-		1E29C12924D2B7B30056E7C5 /* GameItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E29C12824D2B7B30056E7C5 /* GameItemViewModel.swift */; };
-		1E29C12B24D3477A0056E7C5 /* GamesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E29C12A24D3477A0056E7C5 /* GamesRepository.swift */; };
-		1E29C12F24D348E40056E7C5 /* GetGamesUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E29C12E24D348E40056E7C5 /* GetGamesUseCase.swift */; };
-		1E29C13124D42FC20056E7C5 /* GameResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E29C13024D42FC20056E7C5 /* GameResponse.swift */; };
-		1E29C13624D4322B0056E7C5 /* GameItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E29C13524D4322B0056E7C5 /* GameItemView.swift */; };
-		1E29C13824D43D380056E7C5 /* GetImageUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E29C13724D43D380056E7C5 /* GetImageUseCase.swift */; };
+		1E78A05624DC3F6C0029FCAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E78A05524DC3F6C0029FCAC /* Assets.xcassets */; };
+		1E78A05924DC3F6C0029FCAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E78A05824DC3F6C0029FCAC /* Preview Assets.xcassets */; };
+		1E78A06424DC3F6C0029FCAC /* speedruntechMVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E78A06324DC3F6C0029FCAC /* speedruntechMVVMTests.swift */; };
+		1E78A06F24DC3F6C0029FCAC /* speedruntechMVVMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E78A06E24DC3F6C0029FCAC /* speedruntechMVVMUITests.swift */; };
+		1E78A08024DC3FE50029FCAC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E78A07F24DC3FE50029FCAC /* Constants.swift */; };
+		1E78A08724DC3FF80029FCAC /* GamesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E78A08224DC3FF80029FCAC /* GamesRepository.swift */; };
+		1E78A08824DC3FF80029FCAC /* SpeedRunAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E78A08424DC3FF80029FCAC /* SpeedRunAPI.swift */; };
+		1E78A08924DC3FF80029FCAC /* RestClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E78A08524DC3FF80029FCAC /* RestClient.swift */; };
+		1E78A08A24DC3FF80029FCAC /* GameResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E78A08624DC3FF80029FCAC /* GameResponse.swift */; };
+		1E78A08C24DC3FFF0029FCAC /* speedruntechMVVMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E78A08B24DC3FFF0029FCAC /* speedruntechMVVMApp.swift */; };
+		1E78A09124DC40270029FCAC /* GetGamesUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E78A08F24DC40270029FCAC /* GetGamesUseCase.swift */; };
+		1E78A09224DC40270029FCAC /* GetImageUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E78A09024DC40270029FCAC /* GetImageUseCase.swift */; };
+		1E78A09824DC40500029FCAC /* GameListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E78A09424DC40500029FCAC /* GameListView.swift */; };
+		1E78A09924DC40500029FCAC /* GameItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E78A09524DC40500029FCAC /* GameItemView.swift */; };
+		1E78A09A24DC40500029FCAC /* GameListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E78A09624DC40500029FCAC /* GameListViewModel.swift */; };
+		1E78A09B24DC40500029FCAC /* GameItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E78A09724DC40500029FCAC /* GameItemViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1E0C6EA024CEFEAD00B38AC0 /* PBXContainerItemProxy */ = {
+		1E78A06024DC3F6C0029FCAC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 1E0C6E8124CEFEAB00B38AC0 /* Project object */;
+			containerPortal = 1E78A04624DC3F6B0029FCAC /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1E0C6E8824CEFEAB00B38AC0;
-			remoteInfo = speedruntestMVVM;
+			remoteGlobalIDString = 1E78A04D24DC3F6B0029FCAC;
+			remoteInfo = speedruntechMVVM;
 		};
-		1E0C6EAB24CEFEAD00B38AC0 /* PBXContainerItemProxy */ = {
+		1E78A06B24DC3F6C0029FCAC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 1E0C6E8124CEFEAB00B38AC0 /* Project object */;
+			containerPortal = 1E78A04624DC3F6B0029FCAC /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1E0C6E8824CEFEAB00B38AC0;
-			remoteInfo = speedruntestMVVM;
+			remoteGlobalIDString = 1E78A04D24DC3F6B0029FCAC;
+			remoteInfo = speedruntechMVVM;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1E0C6E8924CEFEAB00B38AC0 /* speedruntechMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = speedruntechMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1E0C6E8C24CEFEAB00B38AC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1E0C6E8E24CEFEAB00B38AC0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1E0C6E9024CEFEAB00B38AC0 /* GameListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameListView.swift; sourceTree = "<group>"; };
-		1E0C6E9224CEFEAD00B38AC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1E0C6E9524CEFEAD00B38AC0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		1E0C6E9824CEFEAD00B38AC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		1E0C6E9A24CEFEAD00B38AC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1E0C6E9F24CEFEAD00B38AC0 /* speedruntechMVVMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = speedruntechMVVMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1E0C6EA324CEFEAD00B38AC0 /* speedruntechMVVMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = speedruntechMVVMTests.swift; sourceTree = "<group>"; };
-		1E0C6EA524CEFEAD00B38AC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1E0C6EAA24CEFEAD00B38AC0 /* speedruntechMVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = speedruntechMVVMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1E0C6EAE24CEFEAD00B38AC0 /* speedruntechMVVMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = speedruntechMVVMUITests.swift; sourceTree = "<group>"; };
-		1E0C6EB024CEFEAD00B38AC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1E29C11F24D045E40056E7C5 /* RestClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestClient.swift; sourceTree = "<group>"; };
-		1E29C12124D04F110056E7C5 /* SpeedRunAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedRunAPI.swift; sourceTree = "<group>"; };
-		1E29C12424D2B1BE0056E7C5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		1E29C12624D2B6AD0056E7C5 /* GameListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameListViewModel.swift; sourceTree = "<group>"; };
-		1E29C12824D2B7B30056E7C5 /* GameItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameItemViewModel.swift; sourceTree = "<group>"; };
-		1E29C12A24D3477A0056E7C5 /* GamesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesRepository.swift; sourceTree = "<group>"; };
-		1E29C12E24D348E40056E7C5 /* GetGamesUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetGamesUseCase.swift; sourceTree = "<group>"; };
-		1E29C13024D42FC20056E7C5 /* GameResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameResponse.swift; sourceTree = "<group>"; };
-		1E29C13524D4322B0056E7C5 /* GameItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameItemView.swift; sourceTree = "<group>"; };
-		1E29C13724D43D380056E7C5 /* GetImageUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetImageUseCase.swift; sourceTree = "<group>"; };
+		1E78A04E24DC3F6B0029FCAC /* speedruntechMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = speedruntechMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E78A05524DC3F6C0029FCAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E78A05824DC3F6C0029FCAC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1E78A05A24DC3F6C0029FCAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E78A05F24DC3F6C0029FCAC /* speedruntechMVVMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = speedruntechMVVMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E78A06324DC3F6C0029FCAC /* speedruntechMVVMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = speedruntechMVVMTests.swift; sourceTree = "<group>"; };
+		1E78A06524DC3F6C0029FCAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E78A06A24DC3F6C0029FCAC /* speedruntechMVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = speedruntechMVVMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E78A06E24DC3F6C0029FCAC /* speedruntechMVVMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = speedruntechMVVMUITests.swift; sourceTree = "<group>"; };
+		1E78A07024DC3F6C0029FCAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E78A07F24DC3FE50029FCAC /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1E78A08224DC3FF80029FCAC /* GamesRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamesRepository.swift; sourceTree = "<group>"; };
+		1E78A08424DC3FF80029FCAC /* SpeedRunAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeedRunAPI.swift; sourceTree = "<group>"; };
+		1E78A08524DC3FF80029FCAC /* RestClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestClient.swift; sourceTree = "<group>"; };
+		1E78A08624DC3FF80029FCAC /* GameResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameResponse.swift; sourceTree = "<group>"; };
+		1E78A08B24DC3FFF0029FCAC /* speedruntechMVVMApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = speedruntechMVVMApp.swift; sourceTree = "<group>"; };
+		1E78A08F24DC40270029FCAC /* GetGamesUseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetGamesUseCase.swift; sourceTree = "<group>"; };
+		1E78A09024DC40270029FCAC /* GetImageUseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetImageUseCase.swift; sourceTree = "<group>"; };
+		1E78A09424DC40500029FCAC /* GameListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameListView.swift; sourceTree = "<group>"; };
+		1E78A09524DC40500029FCAC /* GameItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameItemView.swift; sourceTree = "<group>"; };
+		1E78A09624DC40500029FCAC /* GameListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameListViewModel.swift; sourceTree = "<group>"; };
+		1E78A09724DC40500029FCAC /* GameItemViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameItemViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1E0C6E8624CEFEAB00B38AC0 /* Frameworks */ = {
+		1E78A04B24DC3F6B0029FCAC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1E0C6E9C24CEFEAD00B38AC0 /* Frameworks */ = {
+		1E78A05C24DC3F6C0029FCAC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1E0C6EA724CEFEAD00B38AC0 /* Frameworks */ = {
+		1E78A06724DC3F6C0029FCAC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -96,204 +92,202 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1E0C6E8024CEFEAB00B38AC0 = {
+		1E78A04524DC3F6B0029FCAC = {
 			isa = PBXGroup;
 			children = (
-				1E0C6E8B24CEFEAB00B38AC0 /* speedruntechMVVM */,
-				1E0C6EA224CEFEAD00B38AC0 /* speedruntechMVVMTests */,
-				1E0C6EAD24CEFEAD00B38AC0 /* speedruntechMVVMUITests */,
-				1E0C6E8A24CEFEAB00B38AC0 /* Products */,
+				1E78A05024DC3F6B0029FCAC /* speedruntechMVVM */,
+				1E78A06224DC3F6C0029FCAC /* speedruntechMVVMTests */,
+				1E78A06D24DC3F6C0029FCAC /* speedruntechMVVMUITests */,
+				1E78A04F24DC3F6B0029FCAC /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		1E0C6E8A24CEFEAB00B38AC0 /* Products */ = {
+		1E78A04F24DC3F6B0029FCAC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1E0C6E8924CEFEAB00B38AC0 /* speedruntechMVVM.app */,
-				1E0C6E9F24CEFEAD00B38AC0 /* speedruntechMVVMTests.xctest */,
-				1E0C6EAA24CEFEAD00B38AC0 /* speedruntechMVVMUITests.xctest */,
+				1E78A04E24DC3F6B0029FCAC /* speedruntechMVVM.app */,
+				1E78A05F24DC3F6C0029FCAC /* speedruntechMVVMTests.xctest */,
+				1E78A06A24DC3F6C0029FCAC /* speedruntechMVVMUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1E0C6E8B24CEFEAB00B38AC0 /* speedruntechMVVM */ = {
+		1E78A05024DC3F6B0029FCAC /* speedruntechMVVM */ = {
 			isa = PBXGroup;
 			children = (
-				1E29C12C24D348AF0056E7C5 /* Domain */,
-				1E29C12324D2B1910056E7C5 /* Application */,
-				1E29C11E24D045CF0056E7C5 /* Data */,
-				1E29C11C24D0166D0056E7C5 /* View */,
-				1E0C6E8C24CEFEAB00B38AC0 /* AppDelegate.swift */,
-				1E0C6E8E24CEFEAB00B38AC0 /* SceneDelegate.swift */,
-				1E0C6E9224CEFEAD00B38AC0 /* Assets.xcassets */,
-				1E0C6E9724CEFEAD00B38AC0 /* LaunchScreen.storyboard */,
-				1E0C6E9A24CEFEAD00B38AC0 /* Info.plist */,
-				1E0C6E9424CEFEAD00B38AC0 /* Preview Content */,
+				1E78A07E24DC3FE50029FCAC /* Application */,
+				1E78A08124DC3FF80029FCAC /* Data */,
+				1E78A08D24DC40270029FCAC /* Domain */,
+				1E78A09324DC40500029FCAC /* View */,
+				1E78A05524DC3F6C0029FCAC /* Assets.xcassets */,
+				1E78A05A24DC3F6C0029FCAC /* Info.plist */,
+				1E78A05724DC3F6C0029FCAC /* Preview Content */,
 			);
 			path = speedruntechMVVM;
 			sourceTree = "<group>";
 		};
-		1E0C6E9424CEFEAD00B38AC0 /* Preview Content */ = {
+		1E78A05724DC3F6C0029FCAC /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				1E0C6E9524CEFEAD00B38AC0 /* Preview Assets.xcassets */,
+				1E78A05824DC3F6C0029FCAC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		1E0C6EA224CEFEAD00B38AC0 /* speedruntechMVVMTests */ = {
+		1E78A06224DC3F6C0029FCAC /* speedruntechMVVMTests */ = {
 			isa = PBXGroup;
 			children = (
-				1E0C6EA324CEFEAD00B38AC0 /* speedruntechMVVMTests.swift */,
-				1E0C6EA524CEFEAD00B38AC0 /* Info.plist */,
+				1E78A06324DC3F6C0029FCAC /* speedruntechMVVMTests.swift */,
+				1E78A06524DC3F6C0029FCAC /* Info.plist */,
 			);
 			path = speedruntechMVVMTests;
 			sourceTree = "<group>";
 		};
-		1E0C6EAD24CEFEAD00B38AC0 /* speedruntechMVVMUITests */ = {
+		1E78A06D24DC3F6C0029FCAC /* speedruntechMVVMUITests */ = {
 			isa = PBXGroup;
 			children = (
-				1E0C6EAE24CEFEAD00B38AC0 /* speedruntechMVVMUITests.swift */,
-				1E0C6EB024CEFEAD00B38AC0 /* Info.plist */,
+				1E78A06E24DC3F6C0029FCAC /* speedruntechMVVMUITests.swift */,
+				1E78A07024DC3F6C0029FCAC /* Info.plist */,
 			);
 			path = speedruntechMVVMUITests;
 			sourceTree = "<group>";
 		};
-		1E29C11C24D0166D0056E7C5 /* View */ = {
+		1E78A07E24DC3FE50029FCAC /* Application */ = {
 			isa = PBXGroup;
 			children = (
-				1E0C6E9024CEFEAB00B38AC0 /* GameListView.swift */,
-				1E29C12624D2B6AD0056E7C5 /* GameListViewModel.swift */,
-				1E29C12824D2B7B30056E7C5 /* GameItemViewModel.swift */,
-				1E29C13524D4322B0056E7C5 /* GameItemView.swift */,
+				1E78A08B24DC3FFF0029FCAC /* speedruntechMVVMApp.swift */,
+				1E78A07F24DC3FE50029FCAC /* Constants.swift */,
 			);
-			path = View;
+			name = Application;
+			path = "../../speedruntechMVVM copia/speedruntechMVVM/Application";
 			sourceTree = "<group>";
 		};
-		1E29C11E24D045CF0056E7C5 /* Data */ = {
+		1E78A08124DC3FF80029FCAC /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				1E29C13224D42FEB0056E7C5 /* API */,
-				1E29C12A24D3477A0056E7C5 /* GamesRepository.swift */,
+				1E78A08224DC3FF80029FCAC /* GamesRepository.swift */,
+				1E78A08324DC3FF80029FCAC /* API */,
 			);
 			path = Data;
 			sourceTree = "<group>";
 		};
-		1E29C12324D2B1910056E7C5 /* Application */ = {
+		1E78A08324DC3FF80029FCAC /* API */ = {
 			isa = PBXGroup;
 			children = (
-				1E29C12424D2B1BE0056E7C5 /* Constants.swift */,
+				1E78A08424DC3FF80029FCAC /* SpeedRunAPI.swift */,
+				1E78A08524DC3FF80029FCAC /* RestClient.swift */,
+				1E78A08624DC3FF80029FCAC /* GameResponse.swift */,
 			);
-			path = Application;
+			path = API;
 			sourceTree = "<group>";
 		};
-		1E29C12C24D348AF0056E7C5 /* Domain */ = {
+		1E78A08D24DC40270029FCAC /* Domain */ = {
 			isa = PBXGroup;
 			children = (
-				1E29C12D24D348B70056E7C5 /* Use Cases */,
+				1E78A08E24DC40270029FCAC /* Use Cases */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
 		};
-		1E29C12D24D348B70056E7C5 /* Use Cases */ = {
+		1E78A08E24DC40270029FCAC /* Use Cases */ = {
 			isa = PBXGroup;
 			children = (
-				1E29C12E24D348E40056E7C5 /* GetGamesUseCase.swift */,
-				1E29C13724D43D380056E7C5 /* GetImageUseCase.swift */,
+				1E78A08F24DC40270029FCAC /* GetGamesUseCase.swift */,
+				1E78A09024DC40270029FCAC /* GetImageUseCase.swift */,
 			);
 			path = "Use Cases";
 			sourceTree = "<group>";
 		};
-		1E29C13224D42FEB0056E7C5 /* API */ = {
+		1E78A09324DC40500029FCAC /* View */ = {
 			isa = PBXGroup;
 			children = (
-				1E29C13024D42FC20056E7C5 /* GameResponse.swift */,
-				1E29C12124D04F110056E7C5 /* SpeedRunAPI.swift */,
-				1E29C11F24D045E40056E7C5 /* RestClient.swift */,
+				1E78A09424DC40500029FCAC /* GameListView.swift */,
+				1E78A09524DC40500029FCAC /* GameItemView.swift */,
+				1E78A09624DC40500029FCAC /* GameListViewModel.swift */,
+				1E78A09724DC40500029FCAC /* GameItemViewModel.swift */,
 			);
-			path = API;
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1E0C6E8824CEFEAB00B38AC0 /* speedruntechMVVM */ = {
+		1E78A04D24DC3F6B0029FCAC /* speedruntechMVVM */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1E0C6EB324CEFEAD00B38AC0 /* Build configuration list for PBXNativeTarget "speedruntechMVVM" */;
+			buildConfigurationList = 1E78A07324DC3F6C0029FCAC /* Build configuration list for PBXNativeTarget "speedruntechMVVM" */;
 			buildPhases = (
-				1E0C6E8524CEFEAB00B38AC0 /* Sources */,
-				1E0C6E8624CEFEAB00B38AC0 /* Frameworks */,
-				1E0C6E8724CEFEAB00B38AC0 /* Resources */,
+				1E78A04A24DC3F6B0029FCAC /* Sources */,
+				1E78A04B24DC3F6B0029FCAC /* Frameworks */,
+				1E78A04C24DC3F6B0029FCAC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = speedruntechMVVM;
-			productName = speedruntestMVVM;
-			productReference = 1E0C6E8924CEFEAB00B38AC0 /* speedruntechMVVM.app */;
+			productName = speedruntechMVVM;
+			productReference = 1E78A04E24DC3F6B0029FCAC /* speedruntechMVVM.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1E0C6E9E24CEFEAD00B38AC0 /* speedruntechMVVMTests */ = {
+		1E78A05E24DC3F6C0029FCAC /* speedruntechMVVMTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1E0C6EB624CEFEAD00B38AC0 /* Build configuration list for PBXNativeTarget "speedruntechMVVMTests" */;
+			buildConfigurationList = 1E78A07624DC3F6C0029FCAC /* Build configuration list for PBXNativeTarget "speedruntechMVVMTests" */;
 			buildPhases = (
-				1E0C6E9B24CEFEAD00B38AC0 /* Sources */,
-				1E0C6E9C24CEFEAD00B38AC0 /* Frameworks */,
-				1E0C6E9D24CEFEAD00B38AC0 /* Resources */,
+				1E78A05B24DC3F6C0029FCAC /* Sources */,
+				1E78A05C24DC3F6C0029FCAC /* Frameworks */,
+				1E78A05D24DC3F6C0029FCAC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1E0C6EA124CEFEAD00B38AC0 /* PBXTargetDependency */,
+				1E78A06124DC3F6C0029FCAC /* PBXTargetDependency */,
 			);
 			name = speedruntechMVVMTests;
-			productName = speedruntestMVVMTests;
-			productReference = 1E0C6E9F24CEFEAD00B38AC0 /* speedruntechMVVMTests.xctest */;
+			productName = speedruntechMVVMTests;
+			productReference = 1E78A05F24DC3F6C0029FCAC /* speedruntechMVVMTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		1E0C6EA924CEFEAD00B38AC0 /* speedruntechMVVMUITests */ = {
+		1E78A06924DC3F6C0029FCAC /* speedruntechMVVMUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1E0C6EB924CEFEAD00B38AC0 /* Build configuration list for PBXNativeTarget "speedruntechMVVMUITests" */;
+			buildConfigurationList = 1E78A07924DC3F6C0029FCAC /* Build configuration list for PBXNativeTarget "speedruntechMVVMUITests" */;
 			buildPhases = (
-				1E0C6EA624CEFEAD00B38AC0 /* Sources */,
-				1E0C6EA724CEFEAD00B38AC0 /* Frameworks */,
-				1E0C6EA824CEFEAD00B38AC0 /* Resources */,
+				1E78A06624DC3F6C0029FCAC /* Sources */,
+				1E78A06724DC3F6C0029FCAC /* Frameworks */,
+				1E78A06824DC3F6C0029FCAC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1E0C6EAC24CEFEAD00B38AC0 /* PBXTargetDependency */,
+				1E78A06C24DC3F6C0029FCAC /* PBXTargetDependency */,
 			);
 			name = speedruntechMVVMUITests;
-			productName = speedruntestMVVMUITests;
-			productReference = 1E0C6EAA24CEFEAD00B38AC0 /* speedruntechMVVMUITests.xctest */;
+			productName = speedruntechMVVMUITests;
+			productReference = 1E78A06A24DC3F6C0029FCAC /* speedruntechMVVMUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1E0C6E8124CEFEAB00B38AC0 /* Project object */ = {
+		1E78A04624DC3F6B0029FCAC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1160;
-				LastUpgradeCheck = 1160;
-				ORGANIZATIONNAME = "Javier Morgaz";
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
 				TargetAttributes = {
-					1E0C6E8824CEFEAB00B38AC0 = {
-						CreatedOnToolsVersion = 11.6;
+					1E78A04D24DC3F6B0029FCAC = {
+						CreatedOnToolsVersion = 12.0;
 					};
-					1E0C6E9E24CEFEAD00B38AC0 = {
-						CreatedOnToolsVersion = 11.6;
-						TestTargetID = 1E0C6E8824CEFEAB00B38AC0;
+					1E78A05E24DC3F6C0029FCAC = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 1E78A04D24DC3F6B0029FCAC;
 					};
-					1E0C6EA924CEFEAD00B38AC0 = {
-						CreatedOnToolsVersion = 11.6;
-						TestTargetID = 1E0C6E8824CEFEAB00B38AC0;
+					1E78A06924DC3F6C0029FCAC = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 1E78A04D24DC3F6B0029FCAC;
 					};
 				};
 			};
-			buildConfigurationList = 1E0C6E8424CEFEAB00B38AC0 /* Build configuration list for PBXProject "speedruntechMVVM" */;
+			buildConfigurationList = 1E78A04924DC3F6B0029FCAC /* Build configuration list for PBXProject "speedruntechMVVM" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -301,37 +295,36 @@
 				en,
 				Base,
 			);
-			mainGroup = 1E0C6E8024CEFEAB00B38AC0;
-			productRefGroup = 1E0C6E8A24CEFEAB00B38AC0 /* Products */;
+			mainGroup = 1E78A04524DC3F6B0029FCAC;
+			productRefGroup = 1E78A04F24DC3F6B0029FCAC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1E0C6E8824CEFEAB00B38AC0 /* speedruntechMVVM */,
-				1E0C6E9E24CEFEAD00B38AC0 /* speedruntechMVVMTests */,
-				1E0C6EA924CEFEAD00B38AC0 /* speedruntechMVVMUITests */,
+				1E78A04D24DC3F6B0029FCAC /* speedruntechMVVM */,
+				1E78A05E24DC3F6C0029FCAC /* speedruntechMVVMTests */,
+				1E78A06924DC3F6C0029FCAC /* speedruntechMVVMUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1E0C6E8724CEFEAB00B38AC0 /* Resources */ = {
+		1E78A04C24DC3F6B0029FCAC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E0C6E9924CEFEAD00B38AC0 /* LaunchScreen.storyboard in Resources */,
-				1E0C6E9624CEFEAD00B38AC0 /* Preview Assets.xcassets in Resources */,
-				1E0C6E9324CEFEAD00B38AC0 /* Assets.xcassets in Resources */,
+				1E78A05924DC3F6C0029FCAC /* Preview Assets.xcassets in Resources */,
+				1E78A05624DC3F6C0029FCAC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1E0C6E9D24CEFEAD00B38AC0 /* Resources */ = {
+		1E78A05D24DC3F6C0029FCAC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1E0C6EA824CEFEAD00B38AC0 /* Resources */ = {
+		1E78A06824DC3F6C0029FCAC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -341,70 +334,58 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1E0C6E8524CEFEAB00B38AC0 /* Sources */ = {
+		1E78A04A24DC3F6B0029FCAC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E29C12024D045E40056E7C5 /* RestClient.swift in Sources */,
-				1E29C12B24D3477A0056E7C5 /* GamesRepository.swift in Sources */,
-				1E0C6E8D24CEFEAB00B38AC0 /* AppDelegate.swift in Sources */,
-				1E0C6E8F24CEFEAB00B38AC0 /* SceneDelegate.swift in Sources */,
-				1E29C12724D2B6AD0056E7C5 /* GameListViewModel.swift in Sources */,
-				1E29C13624D4322B0056E7C5 /* GameItemView.swift in Sources */,
-				1E29C12924D2B7B30056E7C5 /* GameItemViewModel.swift in Sources */,
-				1E29C12F24D348E40056E7C5 /* GetGamesUseCase.swift in Sources */,
-				1E0C6E9124CEFEAB00B38AC0 /* GameListView.swift in Sources */,
-				1E29C13824D43D380056E7C5 /* GetImageUseCase.swift in Sources */,
-				1E29C13124D42FC20056E7C5 /* GameResponse.swift in Sources */,
-				1E29C12224D04F110056E7C5 /* SpeedRunAPI.swift in Sources */,
-				1E29C12524D2B1BE0056E7C5 /* Constants.swift in Sources */,
+				1E78A09224DC40270029FCAC /* GetImageUseCase.swift in Sources */,
+				1E78A08724DC3FF80029FCAC /* GamesRepository.swift in Sources */,
+				1E78A08824DC3FF80029FCAC /* SpeedRunAPI.swift in Sources */,
+				1E78A08A24DC3FF80029FCAC /* GameResponse.swift in Sources */,
+				1E78A08C24DC3FFF0029FCAC /* speedruntechMVVMApp.swift in Sources */,
+				1E78A09A24DC40500029FCAC /* GameListViewModel.swift in Sources */,
+				1E78A08924DC3FF80029FCAC /* RestClient.swift in Sources */,
+				1E78A09B24DC40500029FCAC /* GameItemViewModel.swift in Sources */,
+				1E78A09124DC40270029FCAC /* GetGamesUseCase.swift in Sources */,
+				1E78A09924DC40500029FCAC /* GameItemView.swift in Sources */,
+				1E78A08024DC3FE50029FCAC /* Constants.swift in Sources */,
+				1E78A09824DC40500029FCAC /* GameListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1E0C6E9B24CEFEAD00B38AC0 /* Sources */ = {
+		1E78A05B24DC3F6C0029FCAC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E0C6EA424CEFEAD00B38AC0 /* speedruntechMVVMTests.swift in Sources */,
+				1E78A06424DC3F6C0029FCAC /* speedruntechMVVMTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1E0C6EA624CEFEAD00B38AC0 /* Sources */ = {
+		1E78A06624DC3F6C0029FCAC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E0C6EAF24CEFEAD00B38AC0 /* speedruntechMVVMUITests.swift in Sources */,
+				1E78A06F24DC3F6C0029FCAC /* speedruntechMVVMUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1E0C6EA124CEFEAD00B38AC0 /* PBXTargetDependency */ = {
+		1E78A06124DC3F6C0029FCAC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1E0C6E8824CEFEAB00B38AC0 /* speedruntechMVVM */;
-			targetProxy = 1E0C6EA024CEFEAD00B38AC0 /* PBXContainerItemProxy */;
+			target = 1E78A04D24DC3F6B0029FCAC /* speedruntechMVVM */;
+			targetProxy = 1E78A06024DC3F6C0029FCAC /* PBXContainerItemProxy */;
 		};
-		1E0C6EAC24CEFEAD00B38AC0 /* PBXTargetDependency */ = {
+		1E78A06C24DC3F6C0029FCAC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1E0C6E8824CEFEAB00B38AC0 /* speedruntechMVVM */;
-			targetProxy = 1E0C6EAB24CEFEAD00B38AC0 /* PBXContainerItemProxy */;
+			target = 1E78A04D24DC3F6B0029FCAC /* speedruntechMVVM */;
+			targetProxy = 1E78A06B24DC3F6C0029FCAC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		1E0C6E9724CEFEAD00B38AC0 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1E0C6E9824CEFEAD00B38AC0 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		1E0C6EB124CEFEAD00B38AC0 /* Debug */ = {
+		1E78A07124DC3F6C0029FCAC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -430,6 +411,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -454,7 +436,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -464,7 +446,7 @@
 			};
 			name = Debug;
 		};
-		1E0C6EB224CEFEAD00B38AC0 /* Release */ = {
+		1E78A07224DC3F6C0029FCAC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -490,6 +472,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -508,7 +491,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -518,47 +501,51 @@
 			};
 			name = Release;
 		};
-		1E0C6EB424CEFEAD00B38AC0 /* Debug */ = {
+		1E78A07424DC3F6C0029FCAC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"speedruntechMVVM/Preview Content\"";
 				DEVELOPMENT_TEAM = 63EKWE9RKB;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = speedruntechMVVM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jmorgaz.speedruntechmvvm;
-				PRODUCT_NAME = speedruntechMVVM;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jmorgaz.speedruntechMVVM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		1E0C6EB524CEFEAD00B38AC0 /* Release */ = {
+		1E78A07524DC3F6C0029FCAC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"speedruntechMVVM/Preview Content\"";
 				DEVELOPMENT_TEAM = 63EKWE9RKB;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = speedruntechMVVM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jmorgaz.speedruntechmvvm;
-				PRODUCT_NAME = speedruntechMVVM;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jmorgaz.speedruntechMVVM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		1E0C6EB724CEFEAD00B38AC0 /* Debug */ = {
+		1E78A07724DC3F6C0029FCAC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -566,13 +553,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 63EKWE9RKB;
 				INFOPLIST_FILE = speedruntechMVVMTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jmorgaz.speedruntechmvvm;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jmorgaz.speedruntechMVVMTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -580,7 +567,7 @@
 			};
 			name = Debug;
 		};
-		1E0C6EB824CEFEAD00B38AC0 /* Release */ = {
+		1E78A07824DC3F6C0029FCAC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -588,13 +575,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 63EKWE9RKB;
 				INFOPLIST_FILE = speedruntechMVVMTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jmorgaz.speedruntechmvvm;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jmorgaz.speedruntechMVVMTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -602,7 +589,7 @@
 			};
 			name = Release;
 		};
-		1E0C6EBA24CEFEAD00B38AC0 /* Debug */ = {
+		1E78A07A24DC3F6C0029FCAC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -614,7 +601,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jmorgaz.speedruntechmvvm.speedruntechMVVMUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jmorgaz.speedruntechMVVMUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -622,7 +609,7 @@
 			};
 			name = Debug;
 		};
-		1E0C6EBB24CEFEAD00B38AC0 /* Release */ = {
+		1E78A07B24DC3F6C0029FCAC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -634,7 +621,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jmorgaz.speedruntechmvvm.speedruntechMVVMUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jmorgaz.speedruntechMVVMUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -645,43 +632,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1E0C6E8424CEFEAB00B38AC0 /* Build configuration list for PBXProject "speedruntechMVVM" */ = {
+		1E78A04924DC3F6B0029FCAC /* Build configuration list for PBXProject "speedruntechMVVM" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1E0C6EB124CEFEAD00B38AC0 /* Debug */,
-				1E0C6EB224CEFEAD00B38AC0 /* Release */,
+				1E78A07124DC3F6C0029FCAC /* Debug */,
+				1E78A07224DC3F6C0029FCAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1E0C6EB324CEFEAD00B38AC0 /* Build configuration list for PBXNativeTarget "speedruntechMVVM" */ = {
+		1E78A07324DC3F6C0029FCAC /* Build configuration list for PBXNativeTarget "speedruntechMVVM" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1E0C6EB424CEFEAD00B38AC0 /* Debug */,
-				1E0C6EB524CEFEAD00B38AC0 /* Release */,
+				1E78A07424DC3F6C0029FCAC /* Debug */,
+				1E78A07524DC3F6C0029FCAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1E0C6EB624CEFEAD00B38AC0 /* Build configuration list for PBXNativeTarget "speedruntechMVVMTests" */ = {
+		1E78A07624DC3F6C0029FCAC /* Build configuration list for PBXNativeTarget "speedruntechMVVMTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1E0C6EB724CEFEAD00B38AC0 /* Debug */,
-				1E0C6EB824CEFEAD00B38AC0 /* Release */,
+				1E78A07724DC3F6C0029FCAC /* Debug */,
+				1E78A07824DC3F6C0029FCAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1E0C6EB924CEFEAD00B38AC0 /* Build configuration list for PBXNativeTarget "speedruntechMVVMUITests" */ = {
+		1E78A07924DC3F6C0029FCAC /* Build configuration list for PBXNativeTarget "speedruntechMVVMUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1E0C6EBA24CEFEAD00B38AC0 /* Debug */,
-				1E0C6EBB24CEFEAD00B38AC0 /* Release */,
+				1E78A07A24DC3F6C0029FCAC /* Debug */,
+				1E78A07B24DC3F6C0029FCAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 1E0C6E8124CEFEAB00B38AC0 /* Project object */;
+	rootObject = 1E78A04624DC3F6B0029FCAC /* Project object */;
 }

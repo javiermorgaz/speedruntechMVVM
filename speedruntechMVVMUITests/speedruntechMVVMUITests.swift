@@ -2,8 +2,7 @@
 //  speedruntechMVVMUITests.swift
 //  speedruntechMVVMUITests
 //
-//  Created by Jmorgaz on 27/07/2020.
-//  Copyright © 2020 Javier Morgaz. All rights reserved.
+//  Created by Jmorgaz on 06/08/2020.
 //
 
 import XCTest
@@ -35,7 +34,7 @@ class speedruntechMVVMUITests: XCTestCase {
     func testLaunchPerformance() throws {
         if #available(macOS 10.15, iOS 13.0, tvOS 13.0, *) {
             // This measures how long it takes to launch your application.
-            measure(metrics: [XCTOSSignpostMetric.applicationLaunch]) {
+            measure(metrics: [XCTApplicationLaunchMetric()]) {
                 XCUIApplication().launch()
             }
         }

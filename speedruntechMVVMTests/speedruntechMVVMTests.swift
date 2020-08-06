@@ -2,8 +2,7 @@
 //  speedruntechMVVMTests.swift
 //  speedruntechMVVMTests
 //
-//  Created by Jmorgaz on 27/07/2020.
-//  Copyright © 2020 Javier Morgaz. All rights reserved.
+//  Created by Jmorgaz on 06/08/2020.
 //
 
 import XCTest

@@ -3,7 +3,6 @@
 //  speedruntechMVVM
 //
 //  Created by Jmorgaz on 30/07/2020.
-//  Copyright © 2020 Javier Morgaz. All rights reserved.
 //
 
 import Foundation
