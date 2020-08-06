@@ -12,6 +12,7 @@ import Combine
 class GameListViewModel: ObservableObject {
     
     @Published var gameItemsViewModel =  [GameItemViewModel]()
+    @Published var isLoaded = false
     
     private let getGamesUseCase: GetGamesUseCase
     private let getImageUseCase: GetImageUseCase
@@ -27,6 +28,7 @@ class GameListViewModel: ObservableObject {
             .receive(on: DispatchQueue.main)
             .map { games in games.map { GameItemViewModel(game: $0, getImageUseCase: self.getImageUseCase)}}
             .sink(receiveCompletion: { error in
+                self.isLoaded = true
                 switch error {
                 case .finished:
                     break

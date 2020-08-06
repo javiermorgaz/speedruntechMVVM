@@ -11,21 +11,24 @@ import SwiftUI
 struct GameListView: View {
     
     @ObservedObject var viewModel: GameListViewModel
-    
+
     init(viewModel: GameListViewModel) {
         self.viewModel = viewModel
     }
     
     var body: some View {
         NavigationView {
-            List(viewModel.gameItemsViewModel) { gameItem in
-                GameItemView(viewModel: gameItem)
-                    .onAppear {
-                        gameItem.getImage()
+            if !viewModel.isLoaded {
+                HStack {
+                    Spacer()
+                    Text("Loading").onAppear(perform: viewModel.getGames)
+                    Spacer()
                 }
-            }
-            .onAppear {
-                self.viewModel.getGames()
+            } else {
+                List(viewModel.gameItemsViewModel) { gameItem in
+                    GameItemView(viewModel: gameItem)
+                        .onAppear(perform: gameItem.getImage)
+                }
             }
         }
     }

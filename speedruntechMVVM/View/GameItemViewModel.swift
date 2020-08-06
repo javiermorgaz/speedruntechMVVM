@@ -19,10 +19,10 @@ class GameItemViewModel: Identifiable, ObservableObject {
     
     init(game: Game, getImageUseCase: GetImageUseCase) {
         self.game = game
-        self.getImageUseCase = getImageUseCase
+        self.getImageUseCase = getImageUseCase        
     }
 
-    var gameId: String {
+    var id: String {
         return game.gameId
     }
     var name: String {
