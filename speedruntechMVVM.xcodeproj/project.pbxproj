@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E30A2D124DD32670077B33E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E30A2D024DD32670077B33E /* Constants.swift */; };
+		1E30A2D324DD329A0077B33E /* speedruntechMVVMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E30A2D224DD329A0077B33E /* speedruntechMVVMApp.swift */; };
 		1E78A05624DC3F6C0029FCAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E78A05524DC3F6C0029FCAC /* Assets.xcassets */; };
 		1E78A05924DC3F6C0029FCAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E78A05824DC3F6C0029FCAC /* Preview Assets.xcassets */; };
 		1E78A06424DC3F6C0029FCAC /* speedruntechMVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E78A06324DC3F6C0029FCAC /* speedruntechMVVMTests.swift */; };
 		1E78A06F24DC3F6C0029FCAC /* speedruntechMVVMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E78A06E24DC3F6C0029FCAC /* speedruntechMVVMUITests.swift */; };
-		1E78A08024DC3FE50029FCAC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E78A07F24DC3FE50029FCAC /* Constants.swift */; };
 		1E78A08724DC3FF80029FCAC /* GamesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E78A08224DC3FF80029FCAC /* GamesRepository.swift */; };
 		1E78A08824DC3FF80029FCAC /* SpeedRunAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E78A08424DC3FF80029FCAC /* SpeedRunAPI.swift */; };
 		1E78A08924DC3FF80029FCAC /* RestClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E78A08524DC3FF80029FCAC /* RestClient.swift */; };
 		1E78A08A24DC3FF80029FCAC /* GameResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E78A08624DC3FF80029FCAC /* GameResponse.swift */; };
-		1E78A08C24DC3FFF0029FCAC /* speedruntechMVVMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E78A08B24DC3FFF0029FCAC /* speedruntechMVVMApp.swift */; };
 		1E78A09124DC40270029FCAC /* GetGamesUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E78A08F24DC40270029FCAC /* GetGamesUseCase.swift */; };
 		1E78A09224DC40270029FCAC /* GetImageUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E78A09024DC40270029FCAC /* GetImageUseCase.swift */; };
 		1E78A09824DC40500029FCAC /* GameListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E78A09424DC40500029FCAC /* GameListView.swift */; };
@@ -43,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E30A2D024DD32670077B33E /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1E30A2D224DD329A0077B33E /* speedruntechMVVMApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = speedruntechMVVMApp.swift; sourceTree = "<group>"; };
 		1E78A04E24DC3F6B0029FCAC /* speedruntechMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = speedruntechMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E78A05524DC3F6C0029FCAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E78A05824DC3F6C0029FCAC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -53,12 +55,10 @@
 		1E78A06A24DC3F6C0029FCAC /* speedruntechMVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = speedruntechMVVMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E78A06E24DC3F6C0029FCAC /* speedruntechMVVMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = speedruntechMVVMUITests.swift; sourceTree = "<group>"; };
 		1E78A07024DC3F6C0029FCAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1E78A07F24DC3FE50029FCAC /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		1E78A08224DC3FF80029FCAC /* GamesRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamesRepository.swift; sourceTree = "<group>"; };
 		1E78A08424DC3FF80029FCAC /* SpeedRunAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeedRunAPI.swift; sourceTree = "<group>"; };
 		1E78A08524DC3FF80029FCAC /* RestClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestClient.swift; sourceTree = "<group>"; };
 		1E78A08624DC3FF80029FCAC /* GameResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameResponse.swift; sourceTree = "<group>"; };
-		1E78A08B24DC3FFF0029FCAC /* speedruntechMVVMApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = speedruntechMVVMApp.swift; sourceTree = "<group>"; };
 		1E78A08F24DC40270029FCAC /* GetGamesUseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetGamesUseCase.swift; sourceTree = "<group>"; };
 		1E78A09024DC40270029FCAC /* GetImageUseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetImageUseCase.swift; sourceTree = "<group>"; };
 		1E78A09424DC40500029FCAC /* GameListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameListView.swift; sourceTree = "<group>"; };
@@ -92,6 +92,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E30A2CF24DD32670077B33E /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				1E30A2D224DD329A0077B33E /* speedruntechMVVMApp.swift */,
+				1E30A2D024DD32670077B33E /* Constants.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
 		1E78A04524DC3F6B0029FCAC = {
 			isa = PBXGroup;
 			children = (
@@ -115,7 +124,7 @@
 		1E78A05024DC3F6B0029FCAC /* speedruntechMVVM */ = {
 			isa = PBXGroup;
 			children = (
-				1E78A07E24DC3FE50029FCAC /* Application */,
+				1E30A2CF24DD32670077B33E /* Application */,
 				1E78A08124DC3FF80029FCAC /* Data */,
 				1E78A08D24DC40270029FCAC /* Domain */,
 				1E78A09324DC40500029FCAC /* View */,
@@ -150,16 +159,6 @@
 				1E78A07024DC3F6C0029FCAC /* Info.plist */,
 			);
 			path = speedruntechMVVMUITests;
-			sourceTree = "<group>";
-		};
-		1E78A07E24DC3FE50029FCAC /* Application */ = {
-			isa = PBXGroup;
-			children = (
-				1E78A08B24DC3FFF0029FCAC /* speedruntechMVVMApp.swift */,
-				1E78A07F24DC3FE50029FCAC /* Constants.swift */,
-			);
-			name = Application;
-			path = "../../speedruntechMVVM copia/speedruntechMVVM/Application";
 			sourceTree = "<group>";
 		};
 		1E78A08124DC3FF80029FCAC /* Data */ = {
@@ -339,16 +338,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E78A09224DC40270029FCAC /* GetImageUseCase.swift in Sources */,
+				1E30A2D324DD329A0077B33E /* speedruntechMVVMApp.swift in Sources */,
 				1E78A08724DC3FF80029FCAC /* GamesRepository.swift in Sources */,
 				1E78A08824DC3FF80029FCAC /* SpeedRunAPI.swift in Sources */,
 				1E78A08A24DC3FF80029FCAC /* GameResponse.swift in Sources */,
-				1E78A08C24DC3FFF0029FCAC /* speedruntechMVVMApp.swift in Sources */,
 				1E78A09A24DC40500029FCAC /* GameListViewModel.swift in Sources */,
 				1E78A08924DC3FF80029FCAC /* RestClient.swift in Sources */,
 				1E78A09B24DC40500029FCAC /* GameItemViewModel.swift in Sources */,
 				1E78A09124DC40270029FCAC /* GetGamesUseCase.swift in Sources */,
+				1E30A2D124DD32670077B33E /* Constants.swift in Sources */,
 				1E78A09924DC40500029FCAC /* GameItemView.swift in Sources */,
-				1E78A08024DC3FE50029FCAC /* Constants.swift in Sources */,
 				1E78A09824DC40500029FCAC /* GameListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
