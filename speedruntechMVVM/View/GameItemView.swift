@@ -20,6 +20,7 @@ struct GameItemView: View {
             Image(uiImage: viewModel.image ?? UIImage())
                 .resizable()
                 .frame(width: 40.0, height: 40.0, alignment: .center)
+                .cornerRadius(.greatestFiniteMagnitude)
                 
             Text(viewModel.name)
         }

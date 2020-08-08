@@ -23,8 +23,7 @@ class GamesRepository {
 
 extension GamesRepository: GamesRepositoryProtocol {
     func fetchGameList() -> AnyPublisher<GameResponse, Error> {
-        let request = SpeedRunAPI.games(baseUrl: Constants.baseURL).asURLRequest()
-        return restClient.perform(request)
+        return restClient.perform(SpeedRunAPIRouter.games)
     }
     
     func fetchImage(url: URL) -> AnyPublisher<Data, URLError> {

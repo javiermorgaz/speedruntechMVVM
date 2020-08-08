@@ -17,8 +17,8 @@ struct SampleApp: App {
 }
 
 func buildContentView() -> GameListView {
-    let getGamesUseCase = GetGames(gamesRepository: GamesRepository(restClient: RestClient()))
-    let getImageUseCase = GetImage(gamesRepository: GamesRepository(restClient: RestClient()))
+    let getGamesUseCase = GetGames(gamesRepository: GamesRepository(restClient: RestClient(baseUrl: Constants.baseURL)))
+    let getImageUseCase = GetImage(gamesRepository: GamesRepository(restClient: RestClient(baseUrl: Constants.baseURL)))
     let contentView = GameListView(viewModel: GameListViewModel(getGamesUseCase: getGamesUseCase, getImageUseCase: getImageUseCase))
     
     return contentView

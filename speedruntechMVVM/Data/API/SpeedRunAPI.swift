@@ -8,11 +8,11 @@
 import Foundation
 import Combine
 
-enum SpeedRunAPI {
+enum SpeedRunAPIRouter {
     
-    case games(baseUrl: String)
-    case runs(baseUrl: String, gameId: String)
-    case users(baseUrl: String, userId: String)
+    case games
+    case runs(gameId: String)
+    case users(userId: String)
     
     struct RouterKeys {
         static let game = "game"
@@ -30,27 +30,17 @@ enum SpeedRunAPI {
     var path: String {
         
         switch self {
-        case .games(let baseUrl): return "\(baseUrl)/games"
-        case .runs(let baseUrl, _): return "\(baseUrl)/runs"
-        case .users(let baseUrl, let userId): return "\(baseUrl)/users/\(userId)"
+        case .games: return "/games"
+        case .runs: return "/runs"
+        case .users(let userId): return "/users/\(userId)"
         }
     }
     
     var quertItems: [URLQueryItem] {
         switch self {
         case .games: return []
-        case .runs(_, let gameId): return [URLQueryItem(name: RouterKeys.game, value: gameId)]
+        case .runs(let gameId): return [URLQueryItem(name: RouterKeys.game, value: gameId)]
         case .users: return []
         }
-    }
-    
-    func asURLRequest() -> URLRequest {
-        var components = URLComponents(string: path)
-        components?.queryItems = quertItems
-        
-        var urlRequest = URLRequest(url: (components?.url)!)
-        urlRequest.httpMethod = method
-        
-        return urlRequest
     }
 }
